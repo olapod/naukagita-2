@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+ * {
+    box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+/*carousel*/
+.carousel {
+  max-height: 500px;
+  overflow: hidden;
+}
+
+  .item img {
+    width: 100%;
+    height: auto;
+ }
+ 
+/*tabs*/
+
+  .nav-pills > li > a {
+	border-radius: 0 !important;
+	}
+
+/*RWD*/
+@media (max-width: 768px) {
+    .carousel {
+		max-height: 350px;
+	}
+   
+}
